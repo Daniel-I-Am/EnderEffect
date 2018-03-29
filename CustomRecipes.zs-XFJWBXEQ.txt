@@ -1,0 +1,9 @@
+// Environmental Tech
+recipes.remove(<environmentaltech:diode>);
+recipes.addShaped(<environmentaltech:diode> * 1, [[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<minecraft:repeater>,<minecraft:repeater>,<minecraft:repeater>],[<ore:blockGlass>,<ic2:dust:6>,<ore:blockGlass>]]);
+recipes.remove(<environmentaltech:void_ore_miner_cont_1>);
+recipes.addShaped(<environmentaltech:void_ore_miner_cont_1> * 1, [[<ore:blockLitherite>,<minecraft:beacon>,<ore:blockLitherite>],[<ore:blockLitherite>,<environmentaltech:diode>,<ore:blockLitherite>],[<environmentaltech:interconnect>,<ore:etLaserLens>,<environmentaltech:interconnect>]]);
+recipes.remove(<environmentaltech:interconnect>);
+recipes.addShaped(<environmentaltech:interconnect> * 1, [[<appliedenergistics2:part:16>,<environmentaltech:connector>,<appliedenergistics2:part;16>],[<environmentaltech:connector>,<minecraft:concrete:15>,<environmentaltech:connector>],[<appliedenergistics2:part:16>,<environmentaltech:connector>,<appliedenergistics2:part:16>]]);
+recipes.remove(<environmentaltech:connector>);
+recipes.addShaped(<environmentaltech:connector> * 2, [[<thermaldynamics:duct_0:1>,<opencomputers:cable>,<thermaldynamics:duct_0:1>],[<opencomputers:cable>,<xnet:connector:*>,<opencomputers:cable>],[<thermaldynamics:duct_0:1>,<opencomputers:cable>,<thermaldynamics:duct_0:1>]]);
